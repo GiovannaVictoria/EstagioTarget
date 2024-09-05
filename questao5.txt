@@ -1,0 +1,23 @@
+Sejam 3 interruptores X, Y e Z, e três salas A, B e C. Faço os seguintes passos:
+1) Escolho um interruptor X, deixo aceso por uns 10 ou 15 minutos e depois desligo;
+2) Escolho outro interruptor Y, e deixo aceso;
+3) Escolho uma das portas A, e verifico sua lâmpada; aqui, teremos 3 possibilidades:
+  3.1) A lâmpada está acesa; nesse caso, eu sei que o interruptor associado à porta A é o Y; então, faço o seguinte:
+    3.1.1) Volto para os interruptores, escolho X e deixo aceso;
+    3.1.2) Escolho uma porta B, e verifico sua lâmpada;
+      3.1.2.1) Se estiver acesa, o interruptor associado à porta B é o X; e o interruptor associado à porta C é o Z;
+        3.1.2.1.1) A - Y; B - X; C - Z;
+      3.1.2.2) Se estiver apagada, o interruptor associado à porta B é o Z; e o interruptor associado à porta C é o X;
+        3.1.2.2.1) A - Y; B - Z; C - X;
+  3.2) A lâmpada está apagada e quente; nesse caso, eu sei que o interruptor associado à porta A é o X; então, faço o seguinte:
+    3.2.1) Escolho uma porta B, e verifico sua lâmpada;
+      3.2.1.1) Se estiver acesa, o interruptor associado à porta B é o Y; e o interruptor associado à porta C é o Z;
+        3.2.1.1.1) A - X; B - Y; C - Z;
+      3.2.1.2) Se estiver apagada, o interruptor associado à porta B é o Z; e o interruptor associado à porta C é o Y;
+        3.2.1.2.1) A - X; B - Z; C - Y;
+  3.3) A lâmpada está apagada e fria; nesse caso, eu sei que o interruptor associado à porta A é o Z; então, faço o seguinte:
+    3.3.1) Escolho uma porta B, e verifico sua lâmpada;
+      3.3.1.1) Se estiver acesa, o interruptor associado à porta B é o Y; e o interruptor associado à porta C é o X;
+        3.3.1.1.1) A - Z; B - Y; C - X;
+      3.3.1.2) Se estiver apagada, o interruptor associado à porta B é o X; e o interruptor associado à porta C é o Y;
+        3.3.1.2.1) A - Z; B - X; C - Y;
